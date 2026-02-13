@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #675c4c;
+    color: white;
+    text-align: center;
+    height: 1%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.company {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.company:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.company h2 {
+    color: #675c4c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.company p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #675c4c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a9a399;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #675c4c;
+    color: white;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .company {
+        padding: 20px;
+    }
+}
+
+/*logo*/
+.logo{
+    width: 20%;
+}
+
+.headerCompagnie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*list*/
+ul{
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+
+.logoheader{
+    width: 30%;
+    height: 30%;
+}
